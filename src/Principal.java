@@ -67,7 +67,7 @@ public class Principal {
      *
      * Em java pode ser utilizando Math.floor(double)
      *
-     * @param x Numero real a ser cálculado o piso.
+     * @param x Número real a ser calculado o piso.
      * @return um valor inteiro com o piso de x.
      */
     public static int piso(double x) {
@@ -75,14 +75,14 @@ public class Principal {
         int parteInteira = (int) x;
         //Pego a parte fracionária de x
         double parteFracionaria = x - parteInteira;
-        //Retorno x subtraindo a parte fracionaria 
+        //Retorno x subtraindo a parte fracionária 
         return (int) (x - parteFracionaria);
     }
 
     /**
      * Retorna o índice do pai de i.
      * 
-     * Página 111 Cormen 3 ed 
+     * Página 111 Thomas H. Cormen 3 ed 
      *
      * @param i Índice do filho
      * @return O índice do seu pai
@@ -94,7 +94,7 @@ public class Principal {
     /**
      * Retorna o índice do filho da esquerda de i.
      * 
-     * Página 111 Cormen 3 ed
+     * Página 111 Thomas H. Cormen 3 ed
      *
      * @param i Ïndice do pai
      * @return O índice do filho da esquerda de i
@@ -106,7 +106,7 @@ public class Principal {
     /**
      * Retorna o índice do filho da direita de i.
      * 
-     * Página 111 Cormen 3 ed
+     * Página 111 Thomas H. Cormen 3 ed
      *
      * @param i Ïndice do pai
      * @return O índice do filho da direita de i
@@ -139,7 +139,7 @@ public class Principal {
      * 
      * T(h)<= T(h−1) + Theta(5)+O(2) 
      * 
-     * Página 112 Cormen 3 ed
+     * Página 112 Thomas H. Cormen 3 ed
      *     
      * @param A Vetor a ser odenado
      * @param n Quantidade de elementos do vetor
@@ -209,7 +209,7 @@ public class Principal {
      *  
      * Utilizando o HeapSort com complexidade O(n log n)
      * 
-     * Página 155 Cormen 3d
+     * Página 155 Thomas H. Cormen 3d
      * Mediana inferior com piso independente da paridade de n
      *
      * @param A Vetor com os dados
