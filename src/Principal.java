@@ -50,7 +50,7 @@
  *
  * Atenção:
  * Vetor em java inicia em 0, os algoritmos consideram início em 1.
- * A subtraçào de -1 ocorre somente no local de acesso ao vetor ou matriz 
+ * A subtração de -1 ocorre somente no local de acesso ao vetor ou matriz 
  * para manter a compatibilidade entre os algoritmos.
  *
  */
